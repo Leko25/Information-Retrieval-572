@@ -1,0 +1,17 @@
+.*/.DS_Store
+Assignment2/data
+Assignment2/data.zip
+Assingment3_Submission
+Assignment4_Submission
+HW4.zip
+index.zip
+Assignment4/venv
+Assignment4/FOXNEWS/foxnews.zip
+Assignment4/big.txt
+Assignment4/edgeList.txt
+*.idea
+*.csv
+*.json
+*.txt
+Assignment2/Crawler/Crawler.iml
+*venv

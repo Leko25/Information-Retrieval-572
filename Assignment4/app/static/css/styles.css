@@ -1,0 +1,38 @@
+ #correct, #misspelling {
+     color: blue;
+ }
+
+ #correct:hover, #misspelling:hover{
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+ .autocomplete-items {
+     position: absolute;
+     border: 1px solid #d4d4d4;
+     border-bottom: none;
+     border-top: none;
+     z-index: 99;
+ }
+
+ .autocomplete-items div {
+     padding: 10px;
+     cursor: pointer;
+     background-color: #fff;
+     border-bottom: 1px solid #d4d4d4;
+     width: 190px;
+     word-break: break-all;
+     word-wrap: break-word;
+ }
+
+ .autocomplete-items div:hover {
+     /* When hovering over an item */
+     background-color: #e9e9e9;
+ }
+ 
+
+ .autocomplete-active {
+     /* When navigating through items using the arrow keys */
+     background-color: dodgerblue !important;
+     color: #ffffff;
+ }
